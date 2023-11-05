@@ -5,7 +5,7 @@ import "./Navigationbar.css";
 function NavigationBar() {
   return (
     <div>
-      <nav className="d-flex justify-content-between align-items-center my-3 mx-1">
+      <nav className="d-flex justify-content-between align-items-center mt-3 mx-1">
         <div style={{ fontFamily: "Inter" }}>
           <h3 className="text-light ms-5">Olympian Opulence</h3>
         </div>
