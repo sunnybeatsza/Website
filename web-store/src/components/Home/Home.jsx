@@ -1,5 +1,7 @@
 import React from "react";
-import NavigationBar from "../Navbar/Navigationbar"; // Import the NavigationBar component
+import NavigationBar from "../Navbar/Navigationbar";
+import Carosel from "../Carosel/Carosel";
+import "./Home.css";
 
 function Home() {
   return (
@@ -43,6 +45,8 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <Carosel />
     </div>
   );
 }
