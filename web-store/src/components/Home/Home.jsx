@@ -6,16 +6,22 @@ import "./Home.css";
 function Home() {
   return (
     <div>
-      <div>
+      <div className="mb-3">
         <NavigationBar />
       </div>
 
+      <div className="carosel-container ">
+        <div>
+          <Carosel />
+        </div>
+      </div>
+
       <div>
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-4 py-5 mt-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
               <img
-                src="../../../Assets/images/man-suit.jpg"
+                src="../../../Assets/images/dashboard-merc.jpg"
                 class="d-block mx-lg-auto img-fluid"
                 alt="Bootstrap Themes"
                 width="500"
@@ -45,8 +51,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <Carosel />
     </div>
   );
 }

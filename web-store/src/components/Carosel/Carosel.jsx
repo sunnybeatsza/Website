@@ -16,18 +16,14 @@ export default function Carosel() {
     <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <img src="../../../Assets/images/man-suit.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src="../../../Assets/images/Sports-car.jpg" />
         </SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <img src="../../../Assets/images/ferrari-458-spider-2932191_1280.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="../../../Assets/images/lamborghini-aventador-2932196_1280.jpg" />
+        </SwiperSlide>
       </Swiper>
     </>
   );
