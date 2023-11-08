@@ -1,11 +1,10 @@
 import React from "react";
-import NavigationBar from "../Navbar/Navigationbar";
+import ProductCard from "./ProductCard";
 
 function Product() {
   return (
     <div>
-      <NavigationBar />
-      <h1>Product</h1>
+      <ProductCard />
     </div>
   );
 }

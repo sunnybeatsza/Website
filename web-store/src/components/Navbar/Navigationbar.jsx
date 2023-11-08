@@ -23,8 +23,8 @@ function NavigationBar() {
             <Link to="/About" className="me-5">
               About
             </Link>
-            <Link to="/Sell" className="me-5">
-              Sell
+            <Link to="/Products" className="me-5">
+              Products
             </Link>
             <Link to="/Contact" className="me-5">
               Contact
@@ -51,8 +51,8 @@ function NavigationBar() {
             <Link to="/About" className="me-5">
               About
             </Link>
-            <Link to="/Sell" className="me-5">
-              Sell
+            <Link to="/Products" className="me-5">
+              Products
             </Link>
             <Link to="/Contact" className="me-5">
               Contact

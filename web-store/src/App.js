@@ -8,6 +8,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Login from "./components/Login/Login";
 import Landing from "./components/Landing/Landing";
 import RegisterForm from "./components/Register/Register";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/Landing" element={<Landing />} />
         <Route path="/Register" element={<RegisterForm />} />
+        <Route path="/Products" element={<Products />} />
       </Routes>
     </div>
   );
