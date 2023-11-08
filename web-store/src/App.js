@@ -6,6 +6,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Login from "./components/Login/Login";
+import Landing from "./components/Landing/Landing";
+import RegisterForm from "./components/Register/Register";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/Checkout" element={<Checkout />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/Landing" element={<Landing />} />
+        <Route path="/Register" element={<RegisterForm />} />
       </Routes>
     </div>
   );
