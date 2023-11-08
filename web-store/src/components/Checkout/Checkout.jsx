@@ -1,8 +1,10 @@
 import React from "react";
+import NavigationBar from "../Navbar/Navigationbar";
 
 function Checkout() {
   return (
     <div className="m-5">
+      <NavigationBar />
       <div className="row g-5">
         <div className="col-md-5 col-lg-4 order-md-last">
           <h4 className="d-flex justify-content-between align-items-center mb-3">

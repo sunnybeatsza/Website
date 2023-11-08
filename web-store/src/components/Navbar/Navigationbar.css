@@ -4,3 +4,18 @@ a {
   color: white !important;
   font-size: 1rem;
 }
+
+.cartIcon {
+  position: relative;
+  > span {
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+  }
+}

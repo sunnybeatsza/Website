@@ -34,6 +34,8 @@ function NavigationBar() {
             <Link to="/logout" className="text-light me-3">
               Logout
             </Link>
+
+            <i class="bi bi-cart3"></i>
           </div>
         </nav>
       ) : (
@@ -57,9 +59,10 @@ function NavigationBar() {
             </Link>
 
             <i className="bi bi-person-fill text-light me-4"> Login</i>
-            <i className="bi bi-box-arrow-in-right text-light me-3">
-              {" "}
-              Register
+            <i className="bi bi-box-arrow-in-right text-light me-3">Register</i>
+
+            <i className="bi bi-cart text-light cartIcon">
+              <span>0</span>
             </i>
           </div>
         </nav>
