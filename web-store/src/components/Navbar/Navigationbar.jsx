@@ -8,6 +8,8 @@ function NavigationBar() {
   const storedUsername = sessionStorage.getItem("username");
   const username =
     useSelector((state) => state.login.username) || storedUsername;
+  const cartItemCount = useSelector((state) => state.cart.items.length); // Get the count of items in the cart
+
   return (
     <div>
       {isLoggedIn ? (
@@ -29,13 +31,13 @@ function NavigationBar() {
             <Link to="/Contact" className="me-5">
               Contact
             </Link>
-
             <span className="text-light me-4">{username}</span>
             <Link to="/logout" className="text-light me-3">
               Logout
             </Link>
-
-            <i class="bi bi-cart3"></i>
+            <i className="bi bi-cart3"></i>
+            <span className="text-light me-3">{cartItemCount}</span>{" "}
+            {/* Display the item count */}
           </div>
         </nav>
       ) : (
@@ -62,7 +64,7 @@ function NavigationBar() {
             <i className="bi bi-box-arrow-in-right text-light me-3">Register</i>
 
             <i className="bi bi-cart text-light cartIcon">
-              <span>0</span>
+              <span>{cartItemCount}</span> {/* Display the item count */}
             </i>
           </div>
         </nav>

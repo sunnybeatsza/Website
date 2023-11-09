@@ -9,6 +9,7 @@ import Login from "./components/Login/Login";
 import Landing from "./components/Landing/Landing";
 import RegisterForm from "./components/Register/Register";
 import Products from "./components/Products/Products";
+import ProductPage from "./components/Product/ProductPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Landing" element={<Landing />} />
         <Route path="/Register" element={<RegisterForm />} />
         <Route path="/Products" element={<Products />} />
+        <Route path="/ProductPage" element={<ProductPage />} />
       </Routes>
     </div>
   );

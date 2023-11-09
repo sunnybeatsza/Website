@@ -1,11 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
-import LoginReducer from "../components/Login/LoginSlice";
-import ProductsReducer from "../components/Products/ProductsSlice";
+import loginReducer from "../components/Login/LoginSlice";
+import productsReducer from "../components/Products/ProductsSlice";
+import cartReducer from "../components/Cart/CartSlice"; // Path to your carts reducer
 
 const store = configureStore({
   reducer: {
-    login: LoginReducer,
-    products: ProductsReducer,
+    login: loginReducer,
+    products: productsReducer,
+    cart: cartReducer, // Adding the carts reducer
+    // Add other reducers if available
   },
 });
 
